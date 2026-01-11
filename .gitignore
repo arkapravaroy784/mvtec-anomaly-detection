@@ -1,0 +1,24 @@
+# datasets (never upload)
+data/
+*.csv
+*.data
+*.tar
+*.tar.gz
+*.xz
+
+# jupyter
+.ipynb_checkpoints/
+
+# python cache
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+
+# ===== model checkpoints (DO NOT COMMIT) =====
+results/checkpoint-*/
+*.pt
+*.pth
+*.bin
+*.safetensors
